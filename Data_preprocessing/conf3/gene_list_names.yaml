@@ -1,0 +1,5 @@
+# This configuration lists gene list names showed in a gene matrix.
+
+# Newly added gene lists
+GNOMAD_PLI995: HI.GENE.pLI995.gnomAD # HI: Haploinsufficient
+

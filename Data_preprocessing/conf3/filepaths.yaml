@@ -1,0 +1,25 @@
+# This configuration file lists paths of data used to make the gene matrix.
+# A root of these paths is a directory of this project. Please specify this in your script.
+# e.g. The absolute path of the data: {Project home directory}/{Following path}
+
+# Directory for this project
+DATA_DIR: data/
+LOG_DIR: log/
+
+# Files listing gene annotation
+GENCODE: data/gencode.v44.basic.annotation.gff3.gz
+REFSEQ: data/refseq_grch38_latest.gff.gz
+HGNC: data/hgnc_complete_set.txt
+
+# Previous gene matrix
+Werling2018: data/werling2018_table_s6.xlsx  # Werling et al., Nat. Genet., 2018
+An2018: data/an2018_table_s8.xlsx  # An et al., Science, 2018
+
+# Newly updated data sets
+ASD: data/satterstrom2020_table_s2.xlsx   # Satterstrom et al., Cell, 2020
+DDD: data/ddd_gene_list.xlsx
+GNOMAD_GENE: data/gnomad.v2.1.1.lof_metrics.by_gene.txt.gz
+
+# List of alternative IDs
+An2018_ALT_GENE: data/an2018_alt_genes.txt
+

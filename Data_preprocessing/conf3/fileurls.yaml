@@ -1,0 +1,16 @@
+# This configuration lists remote URLs for data essential to make a gene matrix
+
+# Previous gene matrix
+An2018: https://www.science.org/doi/suppl/10.1126/science.aat6576/suppl_file/aat6576_table-s8.xlsx
+
+# Gene annotation
+GENCODE: ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_44/gencode.v44.basic.annotation.gff3.gz
+REFSEQ: ftp://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.gff.gz
+#2021-11-23 20:11   49M  
+HGNC: ftp://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt
+#10-Mar-2022 07:19            16174997
+
+# New gene lists
+ASD: https://www.cell.com/cms/10.1016/j.cell.2019.12.036/attachment/cc634b34-b459-4aff-acf0-cb58a3013bd1/mmc2.xlsx  # Satterstrom et al., Cell, 2020
+DDD: https://www.dropbox.com/s/m7a6sqpta5qx86r/media-3_DDD_gene_list.xlsx?dl=0
+GNOMAD_GENE: https://storage.googleapis.com/gcp-public-data--gnomad/release/2.1.1/constraint/gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz
